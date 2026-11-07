@@ -5,59 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giresunnnn Ormanı - Ejder Vadisi</title>
     <link rel="stylesheet" href="style.css">
-    <!-- FontAwesome Iconları için -->
     <link rel="stylesheet" href="https://cloudflare.com">
 </head>
 <body>
 
-    <!-- KAHRAMAN BÖLÜMÜ (HERO) -->
+    <!-- MODERN HERO SECTION -->
     <header class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="game-title">GİRESUNNNN ORMANI</h1>
-            <p class="game-subtitle">Ejder Vadisi'nde Sihirli Bir Macera Başlıyor!</p>
+            <div class="game-badge"><i class="fa-solid fa-gamepad"></i> YOL 3 • EJDER VADİSİ</div>
+            <h1 class="game-title">GİRESUNNNN<br><span>ORMANI</span></h1>
+            <p class="game-subtitle">Büyücü asanı kuşan, canavarları avla ve gizemli kristalleri topla!</p>
             <div class="hero-buttons">
-                <a href="#oyna" class="btn btn-primary"><i class="fa-solid fa-gamepad"></i> Şimdi Oyna</a>
-                <a href="#ozellikler" class="btn btn-secondary">Daha Fazla Bilgi</a>
+                <a href="#oyna" class="btn btn-glow"><i class="fa-solid fa-play"></i> MACERAYA ATIL</a>
+                <a href="#kontroller" class="btn btn-outline"><i class="fa-solid fa-keyboard"></i> KONTROLLER</a>
             </div>
         </div>
     </header>
 
-    <!-- OYUN ÖZELLİKLERİ -->
-    <section id="ozellikler" class="features">
-        <h2>Oyun Özellikleri</h2>
+    <!-- OYUN STATS & ÖZELLİKLER -->
+    <section class="features">
+        <div class="section-header">
+            <h2>Eşsiz Oyun Özellikleri</h2>
+            <p>Ejder Vadisi'nin derinliklerinde seni bekleyen tehlikeler ve ödüller</p>
+        </div>
         <div class="features-grid">
             <div class="feature-card">
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
-                <h3>Güçlü Büyüler</h3>
-                <p>Alev Asası ile düşmanlarına saldır, Meteor büyüsü ile ortalığı kasıp kavur!</p>
+                <div class="card-icon-wrapper"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3>Alev Asası & Meteor</h3>
+                <p>Temel saldırılarla düşmanı yıprat ya da RMB ile yıkıcı Meteor büyüsünü göklerden indir!</p>
             </div>
             <div class="feature-card">
-                <i class="fa-solid fa-dragon"></i>
-                <h3>Ejder Vadisi</h3>
-                <p>Zorlu yolları aş, canavarları avla ve nadir kristaller ile derileri topla.</p>
+                <div class="card-icon-wrapper"><i class="fa-solid fa-gem"></i></div>
+                <h3>Gelişmiş Ganimet Sistemi</h3>
+                <p>Kestiğin yaratıklardan <strong>Kemik, Deri</strong> ve nadir <strong>Kristal</strong> toplayarak gücünü katla.</p>
             </div>
             <div class="feature-card">
-                <i class="fa-solid fa-flask"></i>
-                <h3>Hayatta Kalma</h3>
-                <p>İksirlerini doğru zamanda kullan, canını (HP) yüksek tut ve en yüksek seviyeye ulaş.</p>
+                <div class="card-icon-wrapper"><i class="fa-solid fa-flask-violet"></i></div>
+                <h3>Stratejik Kaynak Yönetimi</h3>
+                <p>Can barlarını anlık takip et, kritik anlarda H tuşuyla sağlık iksirlerini kafaya dik!</p>
             </div>
         </div>
     </section>
 
-    <!-- KONTROLLER BÖLÜMÜ -->
-    <section class="controls">
-        <h2>Oyun Kontrolleri</h2>
-        <div class="controls-container">
-            <div class="control-item"><strong>LMB (Sol Tık):</strong> Saldır</div>
-            <div class="control-item"><strong>RMB (Sağ Tık):</strong> Meteor Büyüsü</div>
-            <div class="control-item"><strong>Q Tuşu:</strong> Avlanma / Özel Yetenek</div>
-            <div class="control-item"><strong>H Tuşu:</strong> Sağlık İksiri Kullan</div>
+    <!-- MODERN KONTROLLER BÖLÜMÜ -->
+    <section id="kontroller" class="controls-section">
+        <div class="section-header">
+            <h2>Savaş Mekanikleri</h2>
+        </div>
+        <div class="controls-grid">
+            <div class="key-card">
+                <span class="key-cap">LMB</span>
+                <p>Saldır</p>
+            </div>
+            <div class="key-card">
+                <span class="key-cap">RMB</span>
+                <p>Meteor Büyüsü</p>
+            </div>
+            <div class="key-card">
+                <span class="key-cap">Q</span>
+                <p>Avlanma / Kanat</p>
+            </div>
+            <div class="key-card">
+                <span class="key-cap">H</span>
+                <p>İksir Tüket</p>
+            </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Giresunnnn Ormanı Geliştirici Ekibi. Tüm Hakları Saklıdır.</p>
+        <p>&copy; 2026 Giresunnnn Ormanı. Tüm Hakları Saklıdır. Geliştirici Ekibi tarafından sevgiyle tasarlandı.</p>
     </footer>
 
 </body>
