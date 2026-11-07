@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giresunnnn Ormanı - Ejder Vadisi</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Iconları için -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- KAHRAMAN BÖLÜMÜ (HERO) -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="game-title">GİRESUNNNN ORMANI</h1>
+            <p class="game-subtitle">Ejder Vadisi'nde Sihirli Bir Macera Başlıyor!</p>
+            <div class="hero-buttons">
+                <a href="#oyna" class="btn btn-primary"><i class="fa-solid fa-gamepad"></i> Şimdi Oyna</a>
+                <a href="#ozellikler" class="btn btn-secondary">Daha Fazla Bilgi</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- OYUN ÖZELLİKLERİ -->
+    <section id="ozellikler" class="features">
+        <h2>Oyun Özellikleri</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h3>Güçlü Büyüler</h3>
+                <p>Alev Asası ile düşmanlarına saldır, Meteor büyüsü ile ortalığı kasıp kavur!</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-dragon"></i>
+                <h3>Ejder Vadisi</h3>
+                <p>Zorlu yolları aş, canavarları avla ve nadir kristaller ile derileri topla.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-flask"></i>
+                <h3>Hayatta Kalma</h3>
+                <p>İksirlerini doğru zamanda kullan, canını (HP) yüksek tut ve en yüksek seviyeye ulaş.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTROLLER BÖLÜMÜ -->
+    <section class="controls">
+        <h2>Oyun Kontrolleri</h2>
+        <div class="controls-container">
+            <div class="control-item"><strong>LMB (Sol Tık):</strong> Saldır</div>
+            <div class="control-item"><strong>RMB (Sağ Tık):</strong> Meteor Büyüsü</div>
+            <div class="control-item"><strong>Q Tuşu:</strong> Avlanma / Özel Yetenek</div>
+            <div class="control-item"><strong>H Tuşu:</strong> Sağlık İksiri Kullan</div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Giresunnnn Ormanı Geliştirici Ekibi. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+</html>
